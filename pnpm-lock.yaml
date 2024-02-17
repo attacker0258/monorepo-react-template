@@ -8,7 +8,7 @@ importers:
 
   .: {}
 
-  apps/web-app:
+  test/apps/web-app:
     dependencies:
       react:
         specifier: ^18.2.0
@@ -48,7 +48,7 @@ importers:
         specifier: ^5.1.0
         version: 5.1.3
 
-  proo/web-app:
+  test/proo/web-app:
     dependencies:
       react:
         specifier: ^18.2.0
